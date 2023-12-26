@@ -1,7 +1,7 @@
-SonicVision
-==============================
+## SonicVision: Multi-modal Video Captioning
 
-A short description of the project.
+### Description:
+SonicVision is an innovative project that explores the fusion of visual and audio information for generating textual captions for videos. By incorporating both visual and auditory cues, this model aims to enhance the richness of video captions, providing a more comprehensive and immersive experience for users.
 
 Project Organization
 ------------
@@ -54,4 +54,44 @@ Project Organization
 
 --------
 
-<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
+
+
+### Features:
+- **Multi-modal Fusion:** Leverage both visual and audio data to create captions that capture the essence of the entire video.
+- **Deep Learning Model:** Utilize state-of-the-art deep learning techniques to automatically generate contextually relevant textual descriptions.
+- **Versatility:** Suitable for a wide range of applications, from content accessibility to enriching user experiences in video platforms.
+
+### Getting Started:
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/your-username/SonicVision.git
+   ```
+
+2. **Install Dependencies:**
+   ```bash
+   cd SonicVision
+   pip install -r requirements.txt
+   ```
+
+3. **Download Pre-trained Models:**
+   Download pre-trained models for both visual and audio processing and place them in the `models` directory. (Links provided in the README)
+
+4. **Run the Demo:**
+   ```bash
+   python demo.py --video_path path/to/your/video.mp4
+   ```
+
+### Model Architecture:
+SonicVision employs a hybrid architecture combining Convolutional Neural Networks (CNNs) for visual processing and Recurrent Neural Networks (RNNs) for audio processing. The fusion of these modalities occurs in a carefully designed attention mechanism, enabling the model to capture the synergies between visual and audio features.
+
+### Sample Results:
+- **Input Video:**
+  ![Input Video](sample/input_video.gif)
+
+- **Generated Caption:**
+  *“A serene sunset over the ocean with crashing waves and seagull calls in the background.”*
+
+### License:
+SonicVision is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
